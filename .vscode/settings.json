@@ -1,0 +1,8 @@
+{
+    "glsllint.glslangValidatorArgs": "",
+    "glsllint.additionalStageAssociations": {
+        ".fs": "frag",
+        ".vs": "vert"
+    },
+   
+}
