@@ -1,7 +1,3 @@
-import { TextureLoader } from 'three/src/loaders/TextureLoader';
-import { useLoader } from '@react-three/fiber';
-// import { Html } from '@react-three/drei';
-
 import { useRef, Suspense } from 'react';
 import {extend, useFrame} from '@react-three/fiber';
 import { shaderMaterial, Html } from '@react-three/drei';
@@ -14,7 +10,6 @@ const WaveShaderMaterial = shaderMaterial(
       uTime: 0,
       // uColor: new THREE.Color(0.0, 0.0, 0.0),
       uColor: new THREE.Color(0.3, 0.3, 0.0,),
-      // uTexture: new THREE.Texture(),
     },
     // Vertex Shader
     glsl`
@@ -84,7 +79,7 @@ const WaveShaderMaterial = shaderMaterial(
                     center={true}
                     position={[28, 3.5 ,0]}
                     >
-                    <p class="mt-text">Mercaptan trapped close to ground due to inversion causing the smell to linger</p>
+                    <p className="mt-text">Mercaptan trapped close to ground due to inversion causing the smell to linger</p>
                 </Html>
             </group>
         </>
