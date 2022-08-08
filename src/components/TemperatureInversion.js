@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 const CoolAir = () => {
     return (
         <mesh position={[0,-1.01,0]}>
-            <sphereGeometry args={[6, 30, 30, 2, 6.28, 0, 0.5]}/>
+            <sphereGeometry args={[6, 30, 30, 2, 6.28, 0, 0.45]}/>
             <meshPhysicalMaterial color={'#004cff'} transmission={0.7} metalness={0.5} roughness={0.25} />
         </mesh>
     );
