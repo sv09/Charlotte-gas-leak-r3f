@@ -9,7 +9,7 @@ import { useEffect, useState } from 'react';
 
 softShadows()
 const Scene = () => {
-  const [showMercaptanFlow, setshowMercaptanFlow] = useState(true);
+  // const [showMercaptanFlow, setshowMercaptanFlow] = useState(true);
   const [showMercaptanTrapped, setShowMercaptanTrapped] = useState(false);
 
 
